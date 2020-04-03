@@ -1,0 +1,20 @@
+{
+    "python.pythonPath": "C:\\Python27\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "_comment" : [
+        "Ignoring the following Flake8 rules:",
+        "E226: Missing whitespace around arithmetic operator",
+        "E241: Multiple spaces after ','",
+        "E302: Expected 2 blank lines, found 0",
+        "E305: Expected 2 blank lines after end of function or class",
+        "F401: Module imported but unused",
+        "E402: Module level import not at top of file",
+        "F841: Local variable name is assigned to but never used",
+        "E501: Line too long (82 > 79 characters)"
+    ],
+    "python.linting.flake8Args": [
+        "--ignore=E226,E241,E302,E305,F401,E402,E501,F841"
+    ],
+    "python.linting.enabled": true
+}
